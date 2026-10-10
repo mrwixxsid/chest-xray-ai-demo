@@ -42,7 +42,7 @@ def get_model_repo_id():
             return str(value).strip()
     except Exception:
         pass
-    return os.getenv("HF_MODEL_REPO_ID", "YOUR_USERNAME/chest-xray-ai-models").strip()
+    return os.getenv("HF_MODEL_REPO_ID", "mrwixxsid/chest-xray-ai-models").strip()
 
 
 MODEL_REPO_ID = get_model_repo_id()
